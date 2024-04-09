@@ -1,0 +1,42 @@
+# node_modules 디렉토리와 그 하위 디렉토리 모두 무시합니다.
+node_modules/
+
+# .next 디렉토리와 그 하위 디렉토리 모두 무시합니다.
+.next/
+
+# yarn.lock 파일 무시합니다.
+yarn.lock
+
+# package-lock.json 파일 무시합니다.
+package-lock.json
+
+# .env.local 파일 무시합니다.
+.env.local
+
+# 테스트 코드 관련 파일 무시합니다.
+jest/
+
+# 커버리지 보고서 파일 무시합니다.
+coverage/
+
+# 타입스크립트 컴파일러 캐시 파일 무시합니다.
+*.tsbuildinfo
+
+# Next.js 빌드 캐시 파일 무시합니다.
+.cache/
+
+# 기타 임시 파일 무시합니다.
+*.tmp
+
+# 로그 파일 무시합니다.
+logs/
+
+# 디버깅 파일 무시합니다.
+*.debug
+
+# 프로덕션 환경에서 사용하지 않는 파일 무시합니다.
+.env.production
+
+# 배포 스크립트 무시합니다.
+deploy.sh
+
